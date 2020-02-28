@@ -1,0 +1,19 @@
+.download {
+  margin: 90px 0;
+  text-align: center;
+  &__title {
+    font-family: "Raleway", sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+    text-decoration: underline;
+    color: #333333;
+  }
+  &__subtitle {
+    color: #2d3033;
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+}

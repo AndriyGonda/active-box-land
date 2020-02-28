@@ -1,0 +1,24 @@
+.btn {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 13px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: inherit;
+  border: 0;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 14px 40px;
+  border-radius: 2px;
+  transition: background .2s linear;
+  &--red {
+    background: #e84545;
+
+    &:hover {
+      background: #c94242;
+    }
+  }
+  &--long {
+    min-width: 280px;
+  }
+}

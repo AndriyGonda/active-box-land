@@ -1,0 +1,49 @@
+.testimonials {
+  background: #53354a;
+  overflow: hidden;
+
+  &__item {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__photo {
+    width: 50%;
+    height: 500px;
+    position: relative;
+
+  }
+  &__content {
+    width: 50%;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    blockquote {
+      margin: 0 40px;
+    }
+  }
+  &__text {
+    font-family: "Cardo", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.2;
+    margin-top: 0;
+  }
+
+  &__author{
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff;
+  }
+
+  &__image {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+  }
+}

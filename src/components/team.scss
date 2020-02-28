@@ -1,0 +1,45 @@
+@import "social";
+.team {
+  margin: 100px 0 80px;
+  font-family: "Raleway", sans-serif;
+  &__inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+  }
+
+  &__item {
+    width: 25%;
+    padding: 0 15px;
+    margin-bottom: 20px;
+  }
+
+  &__photo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  &__name {
+    color: #2d3033;
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  &__prof {
+    font-size: 13px;
+    color: #e84545;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+  &__text {
+     font-size: 14px;
+     line-height: 1.5;
+     color: #6c7279;
+    margin-bottom: 20px;
+    p {
+      margin: 0;
+    }
+  }
+}

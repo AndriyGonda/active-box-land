@@ -1,0 +1,26 @@
+@import "~normalize.css";
+@import "./components/header";
+@import "./components/container";
+@import "./components/intro";
+@import "./components/button";
+@import "./components/features";
+@import "./components/works";
+@import "./components/team";
+@import "./components/testimonials";
+@import "./components/download";
+@import "./components/footer";
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  color: #6c7279;
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}

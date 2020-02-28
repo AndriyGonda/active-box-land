@@ -1,0 +1,52 @@
+.footer {
+  background: #3a3e64;
+
+  p {
+    margin: 0;
+  }
+
+  &__inner {
+    padding: 70px 0;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  &__block {
+    width: 33%;
+    text-align: center;
+    padding: 0 15px;
+    &:after {
+      padding: 0;
+    }
+  }
+  &__title {
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  &__address, &__text {
+    font-style: normal;
+    color: rgba(255,255,255,.5);
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  &__copyright {
+    background: #313454;
+    padding: 20px 0;
+    text-align: center;
+    &__text {
+      font-size: 14px;
+      color: #808080;
+      line-height: 1.5;
+    }
+    &__span {
+      color: #fff;
+    }
+    .heart {
+      color: #e84545;
+    }
+  }
+}
