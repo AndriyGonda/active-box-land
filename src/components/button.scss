@@ -22,3 +22,11 @@
     min-width: 280px;
   }
 }
+
+@media (max-width: 321px) {
+  .btn {
+    &--long {
+      min-width: 250px;
+    }
+  }
+}

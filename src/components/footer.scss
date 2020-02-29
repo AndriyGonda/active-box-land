@@ -10,6 +10,7 @@
     display: flex;
     flex-wrap: wrap;
 
+
   }
   &__block {
     width: 33%;
@@ -48,5 +49,23 @@
     .heart {
       color: #e84545;
     }
+  }
+}
+@media (max-width: 767px) {
+  .footer {
+    &__block {
+      width: 100%;
+      padding: 0;
+      margin-bottom: 15px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    &__inner {
+      padding: 35px 0;
+    }
+  }
+  .social {
+    justify-content: center;
   }
 }

@@ -43,3 +43,35 @@
     }
   }
 }
+
+@media (max-width: 991px) {
+  .team {
+    &__item {
+      width: 50%;
+      text-align: center;
+    }
+
+    &__photo {
+      margin: 15px auto;
+    }
+  }
+  .social {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .team {
+    margin: 30px 0;
+    &__item {
+      width: 100%;
+    }
+
+    &__photo {
+      margin: 15px auto;
+    }
+  }
+  .social {
+    justify-content: center;
+  }
+}

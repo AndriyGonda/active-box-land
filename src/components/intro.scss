@@ -1,7 +1,8 @@
 .intro {
   height: 750px;
   padding-top: 100px;
-  background: #31344e url("/assets/img/intro-bg.png") center /cover;
+  background: #31344e url("/assets/img/intro-bg.png") center no-repeat;
+  bacground-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,5 +27,28 @@
     color: #fff;
     font-weight: 400;
     margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 991px) {
+  .intro {
+    &__title {
+      font-size: 40px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .intro {
+    height: auto;
+    padding: 130px 0 30px 0;
+
+    &__title {
+      font-size: 30px;
+    }
+    &__subtitle {
+      font-size: 16px;
+      margin-bottom: 30px;
+    }
   }
 }

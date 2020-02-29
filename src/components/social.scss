@@ -10,6 +10,9 @@
     margin-right: 5px;
     background: #fff;
     transition: background-color .1s linear;
+    &:last-child {
+      margin-right: 0;
+    }
 
     &:hover {
       background: #e8ecee;

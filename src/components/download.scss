@@ -17,3 +17,12 @@
     margin-bottom: 40px;
   }
 }
+@media (max-width: 767px) {
+  .download {
+    margin: 45px 0;
+
+    &__title {
+      font-size: 24px;
+    }
+  }
+}
