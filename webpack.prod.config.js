@@ -19,6 +19,13 @@ module.exports = {
             chunks: "all"
         }
     },
+    resolve: {
+      alias: {
+        '@': path.join(__dirname, 'src'),
+        '@assets': path.join(__dirname, 'src/assets'),
+        '@components': path.join(__dirname, 'src/components')
+      }
+    },
     plugins: [
         new HTMLWebpackPlugin({
             template: "./index.html"

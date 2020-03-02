@@ -12,6 +12,13 @@ module.exports = {
         filename: "bundle.js",
         path: path.resolve(__dirname, 'dist')
     },
+    resolve: {
+        alias: {
+            '@': path.join(__dirname, 'src'),
+            '@assets': path.join(__dirname, 'src/assets'),
+            '@components': path.join(__dirname, 'src/components')
+        }
+    },
     watch: true,
     devServer: {
         port: 3030,
