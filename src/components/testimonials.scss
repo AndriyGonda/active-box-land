@@ -10,7 +10,6 @@
     width: 50%;
     height: 500px;
     position: relative;
-
   }
   &__content {
     width: 50%;
@@ -23,7 +22,7 @@
     }
   }
   &__text {
-    font-family: "Cardo", sans-serif;
+    font-family: 'Cardo', sans-serif;
     font-size: 36px;
     font-weight: 400;
     color: #fff;
@@ -31,8 +30,8 @@
     margin-top: 0;
   }
 
-  &__author{
-    font-family: "Raleway", sans-serif;
+  &__author {
+    font-family: 'Raleway', sans-serif;
     font-size: 13px;
     text-transform: uppercase;
     font-weight: 700;

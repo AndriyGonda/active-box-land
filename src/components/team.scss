@@ -1,7 +1,7 @@
-@import "social";
+@import 'social';
 .team {
   margin: 100px 0 80px;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   &__inner {
     display: flex;
     flex-wrap: wrap;
@@ -34,9 +34,9 @@
     margin-bottom: 15px;
   }
   &__text {
-     font-size: 14px;
-     line-height: 1.5;
-     color: #6c7279;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #6c7279;
     margin-bottom: 20px;
     p {
       margin: 0;

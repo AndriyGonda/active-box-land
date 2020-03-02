@@ -9,8 +9,6 @@
     padding: 70px 0;
     display: flex;
     flex-wrap: wrap;
-
-
   }
   &__block {
     width: 33%;
@@ -21,16 +19,17 @@
     }
   }
   &__title {
-    font-family: "Raleway", sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 14px;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 700;
   }
 
-  &__address, &__text {
+  &__address,
+  &__text {
     font-style: normal;
-    color: rgba(255,255,255,.5);
+    color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     line-height: 1.5;
   }

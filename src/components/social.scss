@@ -9,7 +9,7 @@
     border: 1px solid #e8ecee;
     margin-right: 5px;
     background: #fff;
-    transition: background-color .1s linear;
+    transition: background-color 0.1s linear;
     &:last-child {
       margin-right: 0;
     }
@@ -22,9 +22,9 @@
     height: 20px;
     width: auto;
     fill: #c6cacc;
-    transition: fill .1s linear;
+    transition: fill 0.1s linear;
   }
-  &__item:hover &__icon{
+  &__item:hover &__icon {
     fill: #e84545;
   }
   &--footer {
@@ -41,6 +41,6 @@
     }
   }
   &--footer &__icon {
-   fill: #fff;
+    fill: #fff;
   }
 }
