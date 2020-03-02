@@ -14,6 +14,14 @@ module.exports = {
     },
     "rules": {
         "semi": ["error", "never"],
-        "quotes": ["error", "single"]
+        "quotes": ["error", "single"],
+        "indent": ["error", 2],
+        "comma-spacing": ["error", {"before": false, "after": true}],
+        "object-curly-spacing": ["error", "always"],
+        "space-before-function-paren": ["error", {
+            "anonymous": "always",
+            "named": "always",
+            "asyncArrow": "always"
+        }]
     }
 };
