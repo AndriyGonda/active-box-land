@@ -9,13 +9,14 @@ module.exports = {
         main:'./index.js',
     },
     output: {
-        filename: "[name].js",
+        filename: "bundle.js",
         path: path.resolve(__dirname, 'dist')
     },
     watch: true,
     devServer: {
         port: 3030,
-        open: true
+        open: true,
+        overlay: true
 
     },
     plugins: [
