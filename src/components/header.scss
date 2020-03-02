@@ -12,6 +12,16 @@
     align-items: center;
     border-bottom: 1px solid #505268;
   }
+  &--fixed {
+    position: fixed;
+    background: #31344e;
+    opacity: .95;
+    height: auto;
+  }
+  &--fixed &__inner {
+    border-bottom: none;
+    padding: 10px 0;
+  }
 }
 .nav {
   display: flex;
@@ -41,7 +51,21 @@
 
 @media (max-width: 991px) {
   .nav {
-    display: none;
+      display: none;
+    &__link {
+      padding: 10px 15px;
+    }
+    &--show {
+      position: absolute;
+      top: 100%;
+      right: 0;
+      display: flex;
+      flex-direction: column;
+      background: #242741;
+      width: 100%;
+      text-align: right;
+
+    }
   }
   .menu {
     display: block;

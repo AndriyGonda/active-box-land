@@ -45,21 +45,21 @@
       </symbol>
     </svg>
     <!-- Header -->
-    <header class="header">
+    <header class="header" id="header">
       <div class="container">
         <div class="header__inner">
           <div class="header__logo">
             <img src="assets/icons/active-box.png" alt="ActiveBox" />
           </div>
 
-          <nav class="nav">
-            <a href="#" class="nav__link">Features</a>
-            <a href="#" class="nav__link">Works</a>
-            <a href="#" class="nav__link">Our Team</a>
-            <a href="#" class="nav__link">Testimonials</a>
-            <a href="#" class="nav__link">Download</a>
+          <nav class="nav" id="nav">
+            <a href="#" class="nav__link" data-scroll="#features">Features</a>
+            <a href="#" class="nav__link" data-scroll="#works">Works</a>
+            <a href="#" class="nav__link" data-scroll="#team">Our Team</a>
+            <a href="#" class="nav__link" data-scroll="#testimonials">Testimonials</a>
+            <a href="#" class="nav__link" data-scroll="#download">Download</a>
           </nav>
-          <button class="menu">
+          <button class="menu" id="menuButton">
             <div class="menu__icon">
               <span class="menu__icon__item"></span>
               <span class="menu__icon__item"></span>
@@ -70,7 +70,7 @@
       </div>
     </header>
     <!-- Intro -->
-    <div class="intro">
+    <div class="intro" id="intro">
       <div class="container">
         <div class="intro__inner">
           <h1 class="intro__title">
@@ -85,7 +85,7 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container" id="features">
       <!--Features-->
       <div class="features">
         <div class="features__item">
@@ -145,7 +145,7 @@
       <!--Features-->
     </div>
     <!--Works-->
-    <div class="works">
+    <div class="works" id="works">
       <div class="works__item">
         <img src="assets/img/works/work-1.jpg" class="works__image" alt="" />
         <div class="works__content">
@@ -211,7 +211,7 @@
       </div>
     </div>
     <!-- Team -->
-    <div class="team">
+    <div class="team" id="team">
       <div class="container">
         <div class="team__inner">
           <div class="team__item">
@@ -346,26 +346,29 @@
     </div>
 
     <!-- Testimonials -->
-    <div class="testimonials">
+    <div class="testimonials" id="testimonials">
       <div class="container">
-        <div class="testimonials__item">
-          <div class="testimonials__photo">
-            <img src="assets/img/testimonials/review-1.jpg" alt="" class="testimonials__image" />
-          </div>
-          <div class="testimonials__content">
-            <blockquote>
-              <p class="testimonials__text">
-                “Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”
-              </p>
-              <cite class="testimonials__author">Susan Sims, Interaction Designer at XYZ</cite>
-            </blockquote>
+        <div>
+          <div class="testimonials__item">
+            <div class="testimonials__photo">
+              <img src="assets/img/testimonials/review-1.jpg" alt="" class="testimonials__image" />
+            </div>
+            <div class="testimonials__content">
+              <blockquote>
+                <p class="testimonials__text">
+                  “Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”
+                </p>
+                <cite class="testimonials__author">Susan Sims, Interaction Designer at XYZ</cite>
+              </blockquote>
+            </div>
           </div>
         </div>
+
       </div>
     </div>
 
     <!-- Download -->
-    <div class="download">
+    <div class="download" id="download">
       <div class="container">
         <h3 class="download__title">
           Are You Ready to Start? Download Now For Free!

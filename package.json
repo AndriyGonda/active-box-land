@@ -36,6 +36,8 @@
   "dependencies": {
     "jquery": "^3.4.1",
     "normalize.css": "^8.0.1",
-    "normalize.scss": "^0.1.0"
+    "normalize.scss": "^0.1.0",
+    "slick": "^1.12.2",
+    "slicky": "^2.0.1"
   }
 }
