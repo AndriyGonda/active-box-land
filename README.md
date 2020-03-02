@@ -1,7 +1,9 @@
 # active-box-land
 
-npm install 
+**npm install** to initialize project and install dependencies 
 
-npm run dev
+**npm run dev** for run in development mode
 
-demo: https://active-box.herokuapp.com/
+**npm run build** for build in production mode 
+
+**demo**: https://active-box.herokuapp.com/
